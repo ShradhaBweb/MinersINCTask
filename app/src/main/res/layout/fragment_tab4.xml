@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tab4Fragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCount"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text="0"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/txtCount"
+            android:layout_centerInParent="true"
+            android:id="@+id/btn_add"
+            android:background="@drawable/add"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txtCount"
+            android:id="@+id/btn_minus"
+            android:layout_centerInParent="true"
+            android:background="@drawable/remove" />
+    </RelativeLayout>
+
+</FrameLayout>
